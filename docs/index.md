@@ -8,4 +8,5 @@
 2. Find which mount point its on - `mount | grep media`
 3. Remount whereever you want to - `mount -t vfat $(mount | grep 2E25-C3261) ~/Documents/mydrive`
 
-  
+### Open Shiny Book 
+1. xdg-open $(find /media -name "web*.pdf")
